@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Caveat&display=swap');
 
+/* -------------------- Header Styles -------------------- */
 .container-fluid {
   position: relative;
   text-align: center;
@@ -11,7 +12,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 650px;
+    height: 650px; 
 }
 
 .header-center {
@@ -29,4 +30,41 @@
     margin: 0;
     padding: 0;
 }
+
+.header-red {
+    font-family: "Caveat", sans-serif;
+    color: red;
+}
+
+.nav-link {
+    color: #000;
+}
+
+/* -------------------- Box Borders -------------------- */
+.box {    
+    border: 2px solid #000;
+}
+
+/* -------------------- Image Size -------------------- */
+.image-size {
+    width: 500px;
+    height: 500px;
+    padding: 50px 0px;    
+}
+
+/* -------------------- Subheadings -------------------- */
+.subheading {
+    font-family: "Caveat", sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+/* -------------------- Main Text -------------------- */
+.main-text {
+    font-family: "Cantarell", sans-serif;
+    text-align: left;
+    padding-right: 25px;
+}
+
 
