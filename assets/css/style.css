@@ -92,7 +92,7 @@ div#map {
 }
 
 .box-border {
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .globe-list {
@@ -119,8 +119,8 @@ ol #list-3 {
     padding: 25px;
 }
 
-/* ------------------------- Seed ------------------------- */
-.seed-img {
+/* ------------------------- Cigar Journey ------------------------- */
+.journey-img {
     width: 20em;
     height: 20em;
     display: inline-block;
