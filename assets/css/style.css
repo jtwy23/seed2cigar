@@ -120,11 +120,35 @@ ol #list-3 {
 }
 
 /* ------------------------- Cigar Journey ------------------------- */
+.accordion {
+  background-color: #fff;
+  color: #1e7e34;
+  border: 1px solid #1e7e34;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #bbda7b;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 .journey-img {
     width: 20em;
     height: 20em;
-    display: inline-block;
+    border-radius: 50%;
 }
+
 
 /* ------------------------- Extra Bootstrap Column Padding ------------------------- */
 [class*="col-"] {
