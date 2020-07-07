@@ -132,7 +132,7 @@ ol #list-3 {
   transition: 0.4s;
 }
 
-.accordion:hover {
+.active, .accordion:hover {
   background-color: #bbda7b;
 }
 
