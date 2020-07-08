@@ -92,7 +92,7 @@ div#map {
 }
 
 .box-border {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .globe-list {
@@ -132,7 +132,7 @@ ol #list-3 {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #bbda7b;
 }
 
@@ -147,9 +147,85 @@ ol #list-3 {
     width: 20em;
     height: 20em;
     border-radius: 50%;
+    float: left;
 }
 
+/* ------------------------- Cigar Talk Section ------------------------- */
+.CharacterContainer {
+            text-align: center;
+            font-size: 1.4em;
+            line-height: 3em;
+            background-color: #1e7e34;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .CharacterElement {
+            margin-right: 10px;
+        }
+        
+        .Inactive {
+            color: grey;
+            cursor: default;
+        }
+        
+        .AppElement {
+            font-size: 2em;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 14em;
+            background-color: #ffffdd;
+        }
 
+/* ------------------------- Contact Section ------------------------- */
+.contact-form {
+      margin-top: 100px;
+      color: #fff;
+      background-color: rgb(52, 58, 64);
+      max-width: 400px;
+      position: relative;
+      left: 10%;
+      padding: 30px 30px 30px 30px;
+  }
+
+  .form-image {
+      background-image: url("../images/contact-image.jpg");
+      clear: left;
+      background-size: cover;
+      background-position: center;
+      height: 700px;
+  }
+    
+  .text-input {
+    background: white;
+    color: #1e7e34;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: solid 1px #1e7e34;
+    border-radius: 2px;
+  }
+  
+  .text-input:hover {
+    border-color: #bbda7b;
+  }
+
+  .submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #fff;
+    color: #1e7e34;
+    display: block;
+  }
+  
+  .submit-button:hover {
+    background-color: #1e7e34;
+    color:  #bbda7b;
+  }  
+  
 /* ------------------------- Extra Bootstrap Column Padding ------------------------- */
 [class*="col-"] {
   padding: 1rem;
