@@ -1,14 +1,13 @@
-$(".definition-a").hide(function() {
-    $(".letter-a").click(function() {
-        $(".definition-a").toggle();
-    });
-}); 
+// Start of Cigar Talk
 
-$(".definition").hide(function() {
-    $(".letter").click(function() {
-        $(".definition").toggle();
-    });
-}); 
+function navCharacters(id) {
+    const phonetics = ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliet", "kilo", "lima", "mike", "november", "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform", "victor", "whisky", "xray", "yankee", "zulu"];
+        $("[id$='-terms']").hide();
+    const elementId = id + '-terms';
+        $('#' + elementId).show();
+}
+
+// End of Cigar Talk
 
 // Cigar Quiz JS
 (function(){
