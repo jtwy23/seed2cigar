@@ -1,4 +1,4 @@
-function sendMail(contactForm) {
+function sendMail(contact) {
     emailjs.send("gmail", "seed2cigar", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
@@ -7,7 +7,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            document.getElementById("contact_form").reset();
+            document.getElementById("contact").reset();
         },
         function(error) {
             console.log("FAILED", error);
