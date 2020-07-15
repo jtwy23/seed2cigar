@@ -153,6 +153,10 @@ ol #list-3 {
     margin: 10px 0;
 }
 
+.definition {
+    text-align: center;
+}
+
 /* ------------------------- Cigar Quiz Section ------------------------- */
 .question{
     text-align: center;
