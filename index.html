@@ -803,15 +803,22 @@
                 on the previous button and see which one is wrong and try to get the correct answer the 
                 second time round.                
                 </p>
-                <div class="quiz-container">
-                    <div id="quiz"></div>
-                </div>
-                <div class="button-align">
-                <button class="my-btn" id="previous">Previous Question</button>
-                <button class="my-btn" id="next">Next Question</button>
-                <button class="my-btn" id="submit">Submit Quiz</button>
-                </div>
-                <div id="results"></div>
+                <div class="grid">
+                    <div id="quiz">
+                
+                            <p id="question"></p>
+                
+                            <div class="buttons">
+                                <button id="btn0"><span id="choice0"></span></button>
+                                <button id="btn1"><span id="choice1"></span></button>
+                                <button id="btn2"><span id="choice2"></span></button>
+                            </div>
+                
+                            <h2>
+                                <p id="progress">Question x of y</p>
+                            </h2>
+                    </div>
+                </div>                
             </div>
         </div>
         <!-- End of Cigar Quiz -->
