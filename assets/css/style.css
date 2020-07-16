@@ -158,57 +158,54 @@ ol #list-3 {
 }
 
 /* ------------------------- Cigar Quiz Section ------------------------- */
-.question{
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #1e7e34;    
+}
+ 
+#score {
+    color: #1e7e34;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 10px;
 }
-.answers {
-    margin-bottom: 20px;
-    text-align: center;
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #1e7e34;
 }
-.answers label{
-    display: block;
-    margin-bottom: 10px;
+ 
+.buttons {
+    margin-top: 30px;
 }
-.my-btn {
-    font-family: "Cantarell", sans-serif;
-	font-size: 22px;
-	background-color: #1e7e34;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
+ 
+#btn0, #btn1, #btn2 {
+    background-color: #1e7e34;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #99c93c;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
 }
-button:hover{
-	background-color: #99c93c;
+ 
+#btn0:hover, #btn1:hover, #btn2:hover {
+    cursor: pointer;
+    background-color: #1e7e34;
 }
-
-.button-align {
-    text-align: center;
+ 
+#btn0:focus, #btn1:focus, #btn2:focus {
+    outline: 0;
 }
-
-.slide{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.5s;
+ 
+#progress {
+    color: #1e7e34;
+    font-size: 18px;
 }
-.active-slide{
-    opacity: 1;
-    z-index: 2;
-}
-.quiz-container{
-    position: relative;
-    height: 200px;
-    margin-top: 40px;
-}
-
 /* ------------------------- Contact Section ------------------------- */
 .contact-form {
     margin-top: 100px;
