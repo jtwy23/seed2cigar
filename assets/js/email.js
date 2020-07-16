@@ -1,13 +1,14 @@
-function sendMail(contact) {
+function sendMail(contact_form) {
+    debugger;
     emailjs.send("gmail", "seed2cigar", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "from_name": contact_form.from_name_value,
+        "from_email": contact_form.from_email_value,
+        "ask_question": contact_form.ask_question_value
     })
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            document.getElementById("contact").reset();
+            document.getElementById("contact_form").reset();
         },
         function(error) {
             console.log("FAILED", error);
@@ -15,3 +16,4 @@ function sendMail(contact) {
     );
     return false;  
 }
+
