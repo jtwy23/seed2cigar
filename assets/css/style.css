@@ -121,6 +121,7 @@ ol #list-2 {
 
 ol #list-3 {
     padding: 25px;
+    overflow: hidden;
 }
 
 /* ------------------------- Cigar Journey ------------------------- */
@@ -216,17 +217,16 @@ ol #list-3 {
 }
 /* ------------------------- Contact Section ------------------------- */
 .contact-form {
-    margin-top: 100px;
+    margin: 100px auto;
     color: #fff;
     background-color: rgb(52, 58, 64);
     max-width: 400px;
-    position: initial;
+    position: relative;
     padding: 30px 30px 30px 30px;
 }
 
 .form-image {
     background-image: url("../images/contact-image.jpg");
-    clear: left;
     background-size: cover;
     background-position: center;
     height: 700px;
