@@ -91,6 +91,8 @@ body {
 
 div#map {
     min-height: 360px;
+    padding: 0;
+    margin: 0;
 }
 
 .box-border {
@@ -181,6 +183,11 @@ ol #list-3 {
  
 .buttons {
     margin-top: 30px;
+    text-align: center;
+}
+
+.quiz-text {
+    text-align: center;
 }
  
 #btn0, #btn1, #btn2 {
@@ -189,13 +196,14 @@ ol #list-3 {
     font-size: 20px;
     color: #fff;
     border: 1px solid #99c93c;
-    margin: 10px 40px 10px 0px;
+    margin: 10px auto;
     padding: 10px 10px;
+    display: block;
 }
  
 #btn0:hover, #btn1:hover, #btn2:hover {
     cursor: pointer;
-    background-color: #1e7e34;
+    background-color: #99c93c;
 }
  
 #btn0:focus, #btn1:focus, #btn2:focus {
@@ -212,7 +220,7 @@ ol #list-3 {
     color: #fff;
     background-color: rgb(52, 58, 64);
     max-width: 400px;
-    position: relative;
+    position: initial;
     padding: 30px 30px 30px 30px;
 }
 
@@ -253,6 +261,34 @@ ol #list-3 {
     background-color: #1e7e34;
     color:  #bbda7b;
 }  
+
+/* ------------------------- Footer ------------------------- */
+.footer-style {
+    background-color: rgb(52, 58, 64);
+    text-align: center;
+}
+
+hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e7e34;
+}
+
+.footer-img {
+    text-align: center;
+    height: 3rem;
+    margin: 1rem 0;
+}
+
+.foot-icon {
+    font-size: 30px;
+    margin: 1rem 1rem;
+}
+
+a {
+    color: #1e7e34;
+}
   
 /* ------------------------- Extra Bootstrap Column Padding ------------------------- */
 [class*="col-"] {
@@ -260,10 +296,7 @@ ol #list-3 {
 }
 
 /* ------------------------- Bootstrap Mobile Gutter Fix ------------------------- */
-.row, .container-fluid {
-margin-left: 0px!important;
-margin-right: 0px!important;
-}
+
 
 /* ------------------------- Fix for Fixed Navbar jumping on scroll ------------------------- */
 .fixed-top  {
@@ -278,6 +311,7 @@ margin-right: 0px!important;
   display: table;
   z-index: -1;
 }
+
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -286,6 +320,7 @@ margin-right: 0px!important;
   width: 100%;
   height: 100%;
 }
+
 .home-inner {
   position: fixed;
   display: table;
@@ -305,6 +340,7 @@ margin-right: 0px!important;
   position: relative;
   width: 100%;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -314,6 +350,7 @@ margin-right: 0px!important;
   height: 100%;
   z-index: -999!important;
 }
+
 .fixed {
   position: fixed;
   display: block;
