@@ -19,6 +19,13 @@ body {
     width: 100%;
 }
 
+.title-headings-3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Caveat", sans-serif;
+    color: #1e7e34;
+}
+
 .box-margin {
     margin: 5rem 0rem;
 }
@@ -54,6 +61,9 @@ body {
 /* ------------------------- Landing Page ------------------------- */
 .home-inner {
     background-image: url("../images/heroimage.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .caption {
@@ -116,7 +126,6 @@ ol {
     width: 100px;
     height: 150px;
     margin: 0 auto;
-    padding: 25px;
 }
 
 ol #list-2 {
@@ -181,7 +190,7 @@ ol #list-3 {
 }
  
 .grid #question {
-    font-family: "monospace";
+    font-family: "Cantarell", sans-serif;
     font-size: 30px;
     color: #1e7e34;
 }
@@ -221,7 +230,7 @@ ol #list-3 {
 }
 /* ------------------------- Contact Section ------------------------- */
 .contact-form {
-    margin: 100px auto;
+    margin: 50px auto;
     color: #fff;
     background-color: rgb(52, 58, 64);
     max-width: 400px;
@@ -300,6 +309,10 @@ hr {
 
 a {
     color: #1e7e34;
+}
+
+a:hover {
+    color: #bbda7b;
 }
   
 /* ------------------------- Extra Bootstrap Column Padding ------------------------- */
