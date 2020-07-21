@@ -19,15 +19,15 @@
     <title>Seed 2 Cigar</title>
     <!-- End of Title Tags -->
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body>
     <!-- Start of Header -->
     <header>
         <!-- Start of Home -->
-        <div id="home">        
+        <div id="home">  
             <!-- Start of Sticky Navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" alt="Seed 2 Cigar"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -54,7 +54,6 @@
             </div>
         </nav>
         <!-- End of Navigation -->
-
         <!-- Start of Landing -->
         <div class="landing">
             <div class="home-wrap">
@@ -70,6 +69,7 @@
             <a class="btn btn-outline-light btn-lg" href="#cigarglobe">Let's Start!</a>
         </div>
         <!-- End of Landing -->
+
         </div>
         <!-- End of Home -->
     </header>
@@ -78,35 +78,39 @@
     <!-- Start of Main -->
     <main>
         <!-- Start of Cigar Globe -->
-        <div id="cigarglobe" class="box-border box-margin">        
+        <div id="cigarglobe" class="box-border box-margin">    
+            <div class="container-fluid">  
             <div class="row">
-                <div class="col-sm-6" id="map">
+                <div class="col-md-6" id="map">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                 <h2 class="title-headings">Cigar Globe</h2>
                 <h3 class="text-center">We have a small list of some of the more popular cigar producing countries and their factories.
                 Of course, there a so many more but these are the most popular around the world.
                 </h3>
-                <ol id="list-1" class="text-center" type="A">
+                <div class="row">
+                <ol id="list-1" class="text-center col-md-4" type="A">
                     <h6 class="globe-list">Cuba</h6>
                         <li>Cohiba</li>
                         <li>Montecristo</li>
                         <li>Partagas</li>
                 </ol>
-                <ol id="list-2" start="4" class="text-center" type="A">
+                <ol id="list-2" start="4" class="text-center col-md-4" type="A">
                     <h6 class="globe-list">Domininca Republic</h6>
                         <li>La Flor Dominicana</li>
                         <li>E.P Carillo</li>
                         <li>Arturo Fuente</li>
                 </ol>
-                <ol id="list-3" start="7" class="text-center" type="A">
+                <ol id="list-3" start="7" class="text-center col-md-4" type="A">
                     <h6 class="globe-list">Nicaragua</h6>
                         <li>Drew Estate</li>
                         <li>Joya De Nicaragua</li>
                         <li>My Father Cigars</li>
                 </ol>
                 </div>
+                </div>
                 </div> 
+                </div>  
         </div>
         <!-- End of Cigar Globe -->
 
@@ -825,6 +829,7 @@
         <div id="contact" class="row box-border box-margin form-image">        
             <div class="col-12">
                 <form id="contact_form" onsubmit="return sendMail(this);" class="contact-form">
+                <h1 class="title-headings-3">Contact Us</h1>
                 <h2>Ask us a question! <i class="fas fa-question-circle"></i></h2>       
                     <label for="fname">Full Name</label>
                         <input class="text-input" type="text" id="fname" name="full_name" required>
@@ -861,7 +866,7 @@
     <!-- End of Footer -->
 
     <!-- Script Tags -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>
     <script src="assets/js/email.js"></script>
     <script src="assets/js/map.js"></script>  
