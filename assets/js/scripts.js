@@ -3,7 +3,7 @@ $(".nav-link").on("click", function(event){
     $('html, body').animate({
          scrollTop: $($(this).attr("href")).offset().top - 100
      }, 400);
-     $(".nav-link").removeClass("active");
+     $(".nav-link").removeClass("active")
      $(this).addClass("active");
 } )
 
