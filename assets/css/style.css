@@ -174,60 +174,15 @@ ol #list-3 {
 }
 
 /* ------------------------- Cigar Quiz Section ------------------------- */
-.grid {
-    width: 600px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 10px 50px 50px 50px;
-    border: 2px solid #1e7e34;    
-}
- 
-#score {
-    color: #1e7e34;
+.quiz-btn {
     text-align: center;
-    font-size: 30px;
-}
- 
-.grid #question {
-    font-family: "Cantarell", sans-serif;
-    font-size: 30px;
-    color: #1e7e34;
-}
- 
-.buttons {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.quiz-text {
-    text-align: center;
-}
- 
-#btn0, #btn1, #btn2 {
-    background-color: #1e7e34;
-    width: 250px;
-    font-size: 20px;
-    color: #fff;
-    border: 1px solid #99c93c;
-    margin: 10px auto;
-    padding: 10px 10px;
+    border: 2px solid #1e7e34;
+    border-radius: .25rem;
+    margin: auto;
     display: block;
 }
- 
-#btn0:hover, #btn1:hover, #btn2:hover {
-    cursor: pointer;
-    background-color: #99c93c;
-}
- 
-#btn0:focus, #btn1:focus, #btn2:focus {
-    outline: 0;
-}
- 
-#progress {
-    color: #1e7e34;
-    font-size: 18px;
-}
+
+
 /* ------------------------- Contact Section ------------------------- */
 .contact-form {
     margin: 50px auto;
@@ -319,9 +274,6 @@ a:hover {
 [class*="col-"] {
   padding: 1rem;
 }
-
-/* ------------------------- Bootstrap Mobile Gutter Fix ------------------------- */
-
 
 /* ------------------------- Fix for Fixed Navbar jumping on scroll ------------------------- */
 .fixed-top  {
