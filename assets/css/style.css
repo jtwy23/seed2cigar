@@ -27,7 +27,8 @@ body {
 }
 
 .box-margin {
-    margin: 5rem 0rem;
+    margin: 5rem 1rem;
+
 }
 
 
@@ -119,6 +120,12 @@ div#map {
     text-decoration: underline;
 }
 
+.list {
+    padding-left: 1.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
 ol {
     display: table-cell;
     text-align: center;
@@ -128,23 +135,14 @@ ol {
     margin: 0 auto;
 }
 
-ol #list-2 {
-    padding: 10px;
-}
-
-ol #list-3 {
-    padding: 10px;
-    overflow: hidden;
-}
-
 /* ------------------------- Cigar Journey ------------------------- */
 .journey-text {
     text-align: center;
 }
 
 .journey-img {
-    width: 20em;
-    height: 20em;
+    width: 500px;
+    height: auto;
     position: relative;
     border-radius: 50%;
     display: inline-block;
@@ -259,21 +257,21 @@ textarea {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #1e7e34;
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
-  float: right;
+  color: #1e7e34;
+  float: left;
   font-size: 28px;
   font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #bbda7b;
   text-decoration: none;
   cursor: pointer;
 }
