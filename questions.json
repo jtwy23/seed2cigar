@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How does a cigar begin its journey?",
+    "choice1": "As a cigar seed to be planted",
+    "choice2": "When the cigar is being rolled in a factory",
+    "choice3": "When a cigar smoker lights a cigar up",
+    "choice4": "As a cigar on a shelf in a store",
+    "answer": 1
+  },
+  {
+    "question": "How many days does it take for the planted seed to become a seedling?",
+    "choice1": "20 Days",
+    "choice2": "40 Days",
+    "choice3": "60 Days",
+    "choice4": "80 Days",
+    "answer": 3
+  },
+  {
+    "question": "How long does it take the seedling to mature to a full plant?",
+    "choice1": "2 Months",
+    "choice2": "6 Months",
+    "choice3": "12 Months",
+    "choice4": "18 Months;",
+    "answer": 1
+  },
+  {
+    "question": "In which direction is the tobacco plants matured?",
+    "choice1": "Bottom, upwards",
+    "choice2": "Top, downwards",
+    "choice3": "Center, outwards",
+    "choice4": "Inwards only",
+    "answer": 1
+  },
+  {
+    "question": "How heavy are the cigar bales?",
+    "choice1": "20lbs",
+    "choice2": "2000lbs",
+    "choice3": "200lbs",
+    "choice4": "2lbs",
+    "answer": 3
+  },
+  {
+    "question": "What is a humidor?",
+    "choice1": "A box to keep cigars",
+    "choice2": "A Cuban box",
+    "choice3": "Type of filler tobacco",
+    "choice4": "A kind of Cuban door",
+    "answer": 1
+  },
+  {
+    "question": "A torcedor can roll up to 500 cigars a day. But what is the normal amount they roll?",
+    "choice1": "100 Cigars",
+    "choice2": "50 Cigars",
+    "choice3": "500 Cigars",
+    "choice4": "150 Cigars",
+    "answer": 4
+  },
+  {
+    "question": "Why is freshly cured tobacco not ready to smoke?",
+    "choice1": "The leaves are too wet",
+    "choice2": "Too much ammonia",
+    "choice3": "Too many bugs",
+    "choice4": "Too dry to smoke",
+    "answer": 2
+  },
+  {
+    "question": "Which country is Cohiba produced?",
+    "choice1": "Cuba",
+    "choice2": "Dominican Republic",
+    "choice3": "Nicaragua",
+    "choice4": "Mexico",
+    "answer": 1
+  },
+  {
+    "question": "Which country is La Flor Dominicana produced?",
+    "choice1": "USA",
+    "choice2": "Mexico",
+    "choice3": "Dominican Republic",
+    "choice4": "Cuba",
+    "answer": 2
+  },
+  {
+    "question": "Which country is Drew Estate cigars produced?",
+    "choice1": "United Kingdom",
+    "choice2": "Switzerland",
+    "choice3": "Nicaragua",
+    "choice4": "Cuba",
+    "answer": 3
+  },
+  {
+    "question": "What is an aging room?",
+    "choice1": "A room for the elderly",
+    "choice2": "A room for cigars to age",
+    "choice3": "A room of cigars of all ages",
+    "choice4": "A room that is simply old",
+    "answer": 2
+  },
+  {
+    "question": "What is a cigar band?",
+    "choice1": "A band that plays cigars",
+    "choice2": "A band that holds the cigar together",
+    "choice3": "A cigar that plays in a band",
+    "choice4": "A strip of paper that wraps around the cigar",
+    "answer": 4
+  },
+  {
+    "question": "What does the term hand rolled mean?",
+    "choice1": "Roll a cigar between your hands before smoking",
+    "choice2": "Cigar made by hand",
+    "choice3": "Cigars should be rolled before selling",
+    "choice4": "Roll you hands to make a cigar",
+    "answer": 2
+  },
+  {
+    "question": "What is a 'Stogie'?",
+    "choice1": "A famous brand of cigar",
+    "choice2": "Slang term for a cigar",
+    "choice3": "Cigar cutting tool",
+    "choice4": "A bad cigar",
+    "answer": 2
+  }
+]
