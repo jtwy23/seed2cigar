@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Caveat&display=swap');
+
 :root {
   background-color: #cef794;
   font-size: 62.5%;
@@ -45,8 +47,7 @@ h3 {
     margin-bottom: 5rem;
 }
 
-/* UTILITIES */
-
+/* ------------------------- Utilities ------------------------- */
 .container {
   width: 100vw;
   height: 100vh;
@@ -84,7 +85,7 @@ h3 {
   display: none;
 }
 
-/* BUTTONS */
+/* ------------------------- Buttons ------------------------- */
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -110,7 +111,7 @@ h3 {
   transform: none;
 }
 
-/* FORMS */
+/* ------------------------- Forms ------------------------- */
 form {
   width: 100%;
   display: flex;
@@ -131,8 +132,7 @@ input::placeholder {
   color: #1e7e34;
 }
 
-/* Images */
-
+/* ------------------------- Images ------------------------- */
 .quiz-img {
     display: block;
     margin-top: 1.5rem;

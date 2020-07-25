@@ -1,3 +1,4 @@
+// Cigar game
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const progressText = document.getElementById('progressText');
@@ -11,6 +12,7 @@ let availableQuesions = [];
 
 let questions = [];
 
+// Gets cigar quiz questions
 fetch('questions.json')
     .then((res) => {
         return res.json();
@@ -23,10 +25,11 @@ fetch('questions.json')
         console.error(err);
     });
 
-//CONSTANTS
+// CONSTANTS Points and amounts of questions
 const CORRECT_BONUS = 20;
 const MAX_QUESTIONS = 5;
 
+// Starts game
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -34,6 +37,7 @@ startGame = () => {
     getNewQuestion();
 };
 
+// New questions
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -58,6 +62,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
+//Question selector/highlight
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;

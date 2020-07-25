@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <!-- Start of Meta Tags -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+    <!-- End of Meta Tags --> 
+    <!-- Start of Link Tags -->
     <link rel="stylesheet" href="assets/css/app.css" />
     <link rel="stylesheet" href="assets/css/cigargame.css" />
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!-- End of Link Tags -->
+    <!-- Start of Title Tags -->
     <title>Cigar Quiz Game</title>
-  </head>
-  <body>
+    <!-- Start of Title Tags -->
+</head>
+<body>
+    <!-- Start of Header -->
     <header>
-        <img class="quiz-img" src="assets/images/logo.jpg" alt="Seed 2 Cigar Logo">
+        <a href="index.html"><img class="quiz-img" src="assets/images/logo.jpg" alt="Seed 2 Cigar Logo"></a>
     </header>
-    <div class="container">
-      <div id="game" class="justify-center flex-column">
-        <div id="hud">
-          <div id="hud-item">
-            <p id="progressText" class="hud-prefix">
-              Question
-            </p>
-            <div id="progressBar">
-              <div id="progressBarFull"></div>
+    <!-- End of Header -->
+    <!-- Start of Section -->
+    <section>
+    <!-- Start of Game -->
+        <div class="container">        
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <div id="hud-item">
+                        <p id="progressText" class="hud-prefix">
+                        Question
+                        </p>
+                        <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    <div id="hud-item1">
+                        <p class="hud-prefix">
+                        Score
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                        0
+                        </h1>
+                    </div>
+                </div>
+
+                <h2 id="question"></h2>
+                <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1"></p>
+                </div>
+                <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2"></p>
+                </div>
+                <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3"></p>
+                </div>
+                <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4"></p>
+                </div>
             </div>
-          </div>
-          <div id="hud-item1">
-            <p class="hud-prefix">
-              Score
-            </p>
-            <h1 class="hud-main-text" id="score">
-              0
-            </h1>
-          </div>
         </div>
-        <h2 id="question"></h2>
-        <div class="choice-container">
-          <p class="choice-prefix">A</p>
-          <p class="choice-text" data-number="1"></p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">B</p>
-          <p class="choice-text" data-number="2"></p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">C</p>
-          <p class="choice-text" data-number="3"></p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">D</p>
-          <p class="choice-text" data-number="4"></p>
-        </div>
-      </div>
-    </div>
+    <!-- End of Game -->
+    </section>
+    <!-- End of Section -->
+    <!-- Start of Script Tags -->
     <script src="assets/js/cigargame.js"></script>
-  </body>
+    <!-- End of Script Tags -->
+</body>
 </html>
