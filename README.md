@@ -14,6 +14,6 @@ understand how a cigar is made from start to finish. Or like the ‘Cigar Talk�
 terms they may come across in the early stages of their own cigar journey. The ‘Contact’ section is a simple 
 design to allow users to feel comfortable in reaching out for any cigar related questions they may have. I have 
 also included a ‘Cigar Quiz’ section as an added extra interactivity for the user to somewhat test their own 
-knowledge of what they have learned from this website.
----
+knowledge of what they have learned from this website. The website can be seen [link][here]
+[seed2cigar]: https://jtwy23.github.io/seed2cigar/.
 ## UX
