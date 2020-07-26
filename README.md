@@ -149,14 +149,44 @@ user expand on knowledge.
 * [Pexels](https://www.pexels.com/)
     - Stock images taken from this website.
 
-*[Pexabay}(https://pixabay.com/)
+* [Pexabay](https://pixabay.com/)
     - Stock images taken from this website.
 
-*[Unsplash](https://unsplash.com/)
+* [Unsplash](https://unsplash.com/)
     - Stock images taken from this website.
 
-*[The Noun Project Favicon](https://thenounproject.com/)
+* [The Noun Project Favicon](https://thenounproject.com/)
     - Favicon creator.
 
+---
 
+## Testing
 
+### HTML5
+
+I ran all the HTML code into [W3C Markup Validator](https://validator.w3.org/). OUt of 5 pages there were no
+errors. However there were two pages that had a warning for an empty heading. As javascript is implemented for
+this project these two warnings can be ignored because when these pages load javascript will then populate
+the heading. This is why it is left empty.
+
+#### index.html
+![index validator img](readme-image/hv-index.jpg)
+    - No errors or warnings.
+
+#### cigargame.html
+![index validator img](readme-image/hv-cigargame.jpg)
+    - No errors but a warning for an empty heading. But javascript will populate the page when 
+    loaded.
+
+#### cigarquiz.html
+![index validator img](readme-image/hv-cigarquiz.jpg)
+    - No errors or warnings.
+
+#### end.html
+![index validator img](readme-image/hv-end.jpg)
+    - No errors but a warning for an empty heading. But javascript will populate the page when 
+    loaded.
+
+#### highscores.html
+![index validator img](readme-image/hv-highscores.jpg)
+    - No errors or warnings.
