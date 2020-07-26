@@ -37,7 +37,7 @@ startGame = () => {
     getNewQuestion();
 };
 
-// New questions
+// Get and display new question and choices if there is any available or take user to the end page
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -46,7 +46,7 @@ getNewQuestion = () => {
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Update the progress bar
+//Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
@@ -62,7 +62,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
-//Question selector/highlight
+// Handles the users choice on click and decides if it is correct or not. Then moves to the next question.
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptingAnswers) return;
@@ -83,10 +83,10 @@ choices.forEach((choice) => {
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 3000);
     });
 });
-
+// Incrementing the users score and also displays the score.
 incrementScore = (num) => {
     score += num;
     scoreText.innerText = score;

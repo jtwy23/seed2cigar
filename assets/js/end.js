@@ -9,11 +9,11 @@ const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
-// Username required
+// Add event handler to username field to enable/disable save button
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
-
+// Saves only the top 5 highscores to users local storage and taken to highscores page
 saveHighScore = (e) => {
     e.preventDefault();
 
