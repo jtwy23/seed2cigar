@@ -108,29 +108,9 @@ div#map {
     border: 2px solid black;
 }
 
-.globe-box {
+.table-list {
+    width: 100%;
     text-align: center;
-}
-
-.globe-list {
-    font-family: "Cantarell", sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.list {
-    padding-left: 1.5rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-}
-
-ol {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 100px;
-    height: 150px;
-    margin: 0 auto;
 }
 
 /* ------------------------- Cigar Journey ------------------------- */
@@ -162,6 +142,7 @@ ol {
 }
 
 .letter {
+    font-size: 2rem;
     margin: 10px 0;
 }
 
