@@ -23,31 +23,31 @@ knowledge of what they have learned from this website. The website can be seen [
 To develop this website we have broken down the UX into its five planes to define the client’s needs.
 
 ### Strategy Plane
-| Client Goals                                                    | User Goals                                                                                                  |
-|---------------------------------------------------------------  |-------------------------------------------------------------------------------------------------------------|
-| * To have an easy to understand website.                        | * As a user, I want to be able to learn more about the cigar process.                                       |
-| * The website should be easy for any user to navigate.          | * As a user, I want to better understand cigar terms I see in other websites and social media.              |
-| * A simple way for users to contact us for any related queries. | * As a user, I want to know where the main cigar producing countries are.                                   |
-| * The design of the website to be simple and inviting.          | * As a user, I want to be able to get in touch with someone knowledgeable in cigars to answer my questions. |
-| * The information given to users will be simple and helpful.    | * As a user, I want to be able to test my own knowledge on cigars.                                          |
-|                                                                 | * As a user, I want to better understand ring gauges on different cigars.                                   |
-|                                                                 | * As a user, I want to know the purpose of some cigar sizes.                                                |
-|                                                                 | * As a user, I would like to be able to learn more flavour profiles and understand the different flavours.  |
-|                                                                 | * As a user, I want to know the difference from Cuban cigars to new world cigars.                           |
-|                                                                 | * As a user, I want to know if the colour of the cigar determines the strength of the cigar.                |
-|                                                                 | * As a user, I want to know the difference between hand rolled and machine rolled.                          |
+| Client Goals                                                  | User Goals                                                                                                |
+|-------------------------------------------------------------  |-----------------------------------------------------------------------------------------------------------|
+| To have an easy to understand website.                        | As a user, I want to be able to learn more about the cigar process.                                       |
+| The website should be easy for any user to navigate.          | As a user, I want to better understand cigar terms I see in other websites and social media.              |
+| A simple way for users to contact us for any related queries. | As a user, I want to know where the main cigar producing countries are.                                   |
+| The design of the website to be simple and inviting.          | As a user, I want to be able to get in touch with someone knowledgeable in cigars to answer my questions. |
+| The information given to users will be simple and helpful.    | As a user, I want to be able to test my own knowledge on cigars.                                          |
+|                                                               | As a user, I want to better understand ring gauges on different cigars.                                   |
+|                                                               | As a user, I want to know the purpose of some cigar sizes.                                                |
+|                                                               | As a user, I would like to be able to learn more flavour profiles and understand the different flavours.  |
+|                                                               | As a user, I want to know the difference from Cuban cigars to new world cigars.                           |
+|                                                               | As a user, I want to know if the colour of the cigar determines the strength of the cigar.                |
+|                                                               | As a user, I want to know the difference between hand rolled and machine rolled.                          |
 
 ### Scope Plane
-| Features Include:                     | Features Not Included (For future implementation):           |
-|---------------------------------------|--------------------------------------------------------------|
-| - Navigation Bar                      | - Live Chat functionality                                    |
-| - Hero Image                          | - Video Gallery for Cigar Tutorials                          |
-| - Google Maps API                     | - More cigar questions when the website has more information |
-| - Bootstrap Accordion                 |                                                              |
-| - jQuery Alphabetical Navigation List |                                                              |
-| - Javascript Quiz                     |                                                              |
-| - EmailJS API                         |                                                              |
-| - Footer with Contact Information     |                                                              |
+| Features Include:                   | Features Not Included (For future implementation):         |
+|-------------------------------------|------------------------------------------------------------|
+| Navigation Bar                      | Live Chat functionality                                    |
+| Hero Image                          | Video Gallery for Cigar Tutorials                          |
+| Google Maps API                     | More cigar questions when the website has more information |
+| Bootstrap Accordion                 |                                                            |
+| jQuery Alphabetical Navigation List |                                                            |
+| Javascript Quiz                     |                                                            |
+| EmailJS API                         |                                                            |
+| Footer with Contact Information     |                                                            |
 
 ### Structure Plane
 The website is designed to look like a single scrolling page. But for added user experience the cigar quiz app 
@@ -81,6 +81,8 @@ enough for an easier read.
 
 - Header and footer colour is rgb(52, 58, 64). A shade of black that works well with the green text.
 
+---
+
 ## Features
 
 ### Navigation Bar
@@ -111,21 +113,50 @@ Also for the client to have more exposure and be able to connect quickly with us
 user expand on knowledge.
 -	Further implementation of the quiz with more questions that can allow for randomising the quiz. 
 
+---
+
 ## Technologies Used
-HTML
-CSS
-Javascript
-Bootstrap 4
-Google Fonts
-Fontawesome
-Google Maps API
-jQuery
-EmailJS API
-Balsamiq
-Pexels
-Pexabay
-Unsplash
-The Noun Project Favicon
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - The markup language used to structure and present the content onto the web.
+
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+    - Used CSS to style the website.
+
+* [Javascript](https://www.javascript.com/)
+    - Used javascript to put logic into the website.
+
+* [Boostrap version 4.5.0](https://getbootstrap.com/)
+    - Framework used to create website.
+
+* [Google Fonts](https://fonts.google.com/)
+    - Used 'Cantarell' font for all text on website and 'Caveat' for all title headings.
+
+* [Fontawesome](https://fontawesome.com/)
+    - All icons were used from fontawesome.
+
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
+    - API used to produce the map for Cigar Globe section.
+
+* [jQuery](https://jquery.com/)
+    - The Alphabetical Navigation list was built with jQuery.
+
+* [EmailJS API](https://www.emailjs.com/)
+    - Emailing set up with this API to connect to clients email.
+
+* [Balsamiq Wireframes](https://balsamiq.com/)
+    - Used to create basic layout of the pages.
+
+* [Pexels](https://www.pexels.com/)
+    - Stock images taken from this website.
+
+*[Pexabay}(https://pixabay.com/)
+    - Stock images taken from this website.
+
+*[Unsplash](https://unsplash.com/)
+    - Stock images taken from this website.
+
+*[The Noun Project Favicon](https://thenounproject.com/)
+    - Favicon creator.
 
 
 
