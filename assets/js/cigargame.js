@@ -83,7 +83,7 @@ choices.forEach((choice) => {
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 3000);
+        }, 1500);
     });
 });
 // Incrementing the users score and also displays the score.
