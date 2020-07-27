@@ -170,23 +170,53 @@ this project these two warnings can be ignored because when these pages load jav
 the heading. This is why it is left empty.
 
 #### index.html
-![index validator img](readme-image/hv-index.jpg)
+![index validator img](readme-images/hv-index.jpg)
     - No errors or warnings.
 
 #### cigargame.html
-![index validator img](readme-image/hv-cigargame.jpg)
+![cigargame validator img](readme-images/hv-cigargame.jpg)
     - No errors but a warning for an empty heading. But javascript will populate the page when 
     loaded.
 
 #### cigarquiz.html
-![index validator img](readme-image/hv-cigarquiz.jpg)
+![cigarquiz validator img](readme-images/hv-cigarquiz.jpg)
     - No errors or warnings.
 
 #### end.html
-![index validator img](readme-image/hv-end.jpg)
+![end validator img](readme-images/hv-end.jpg)
     - No errors but a warning for an empty heading. But javascript will populate the page when 
     loaded.
 
 #### highscores.html
-![index validator img](readme-image/hv-highscores.jpg)
+![highscores validator img](readme-images/hv-highscores.jpg)
     - No errors or warnings.
+
+---
+
+### CSS
+
+All style sheets were validated on [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+No errors came up for any of CSS file. There were two files that came up with a warning in 
+regards to Google fonts CSS and ran that file through the validator that also came up with 
+no errors.
+
+#### app.css
+![app validator img](readme-images/cv-app.jpg)
+
+#### cigargame.css
+![cigargame validator img](readme-images/cv-cigargame.jpg)
+
+#### googlefonts.css
+![googlefonts validator img](readme-images/cv-googlefonts.jpg)
+
+#### highscores.css
+![highscores validator img](readme-images/cv-highscores.jpg)
+
+#### style.css
+![style validator img](readme-images/cv-style.jpg)
+
+---
+
+### Javascript
+
+
