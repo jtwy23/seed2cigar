@@ -1,7 +1,26 @@
 # SEED 2 CIGAR
+
 ---
+
 ![Logo](assets/images/logo.jpg)
+
 ---
+
+## Table of Contents
+- [UX](#ux)
+- [Strategy Plane](#strategy-plane)
+- [Scope Plane](#scope-plane)
+- [Structure Plane](#structure-plane)
+- [Skeleton Plane](#skeleton-plane)
+- [Surface Plane](#surface-plane)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Responsive](#responsive)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Disclaimer](#disclaimer)
+
 This is a five page website designed to be more like a single scrolling page website project. 
 It consists of 6 sections including Home, Cigar Globe, Cigar Journey, Cigar Talk, Cigar Quiz and Contact 
 sections. The reason for the extra pages is the Cigar Quiz that was developed for an enhanced user 
@@ -315,7 +334,10 @@ away to the respective page and opens on a new page so the user can get back to 
 |       Opera       |   X  |     |
 |       Safari      |   X  |     |
 |        Edge       |   X  |     |
-| Internet Explorer |   X  |     |
+| Internet Explorer |      |  X  |
+
+In Internet Explorer the main part of the site is working well however the cigar quiz doesn't
+populate the javascript code.
 
 ### Device Test
 
@@ -394,5 +416,13 @@ to simple little errors I didn't see right away.
 - My friend Chris who also helped me through some coding issues.
 
 - All the friends and family that have tested my website.
+
+---
+
+## Disclaimer
+
+This is only for educational purposes.
+
+---
 
 
