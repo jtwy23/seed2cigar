@@ -301,11 +301,6 @@ a:hover {
   padding: 1rem;
 }
 
-/* ------------------------- Fix for Fixed Navbar jumping on scroll ------------------------- */
-.fixed-top  {
- -webkit-backface-visibility: hidden;
-}
-
 /* ------------------------- Fixed Landing Page Section ------------------------- */
 .landing {
   position: relative;
@@ -333,8 +328,6 @@ a:hover {
   height: 100%;
   background-size: cover;
   background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
   will-change: transform;
 }
 
@@ -363,7 +356,5 @@ a:hover {
   height: 100%;
   background-size: cover;
   background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
   will-change: transform;
 }
