@@ -4,11 +4,11 @@
 ---
 This is a five page website designed to be more like a single scrolling page website project. 
 It consists of 6 sections including Home, Cigar Globe, Cigar Journey, Cigar Talk, Cigar Quiz and Contact 
-sections. The reason for the extra pages is the Cigar Quiz app that was developed for an enhanced user 
+sections. The reason for the extra pages is the Cigar Quiz that was developed for an enhanced user 
 experience.  The main aim of this project is for new cigar enthusiasts to come and visit the website and learn 
 about the main points of cigar culture and be able to navigate easily through the website to get to the 
 information they require. This website contains simple, easy to understand information to help the user get 
-around cigar culture Such as the ‘Cigar Globe’ section where the user can learn about the main cigar producing 
+around cigar culture. Such as the ‘Cigar Globe’ section where the user can learn about the main cigar producing 
 countries of the world. The ‘Cigar Journey’ section has an easy to navigate section for a user to learn and 
 understand how a cigar is made from start to finish. Or like the ‘Cigar Talk’ section which gives a list of 
 terms they may come across in the early stages of their own cigar journey. The ‘Contact’ section is a simple 
@@ -33,7 +33,7 @@ To develop this website we have broken down the UX into its five planes to defin
 |                                                               | As a user, I want to better understand ring gauges on different cigars.                                   |
 |                                                               | As a user, I want to know the purpose of some cigar sizes.                                                |
 |                                                               | As a user, I would like to be able to learn more flavour profiles and understand the different flavours.  |
-|                                                               | As a user, I want to know the difference from Cuban cigars to new world cigars.                           |
+|                                                               | As a user, I want to know the difference from Cuban cigars to New World cigars.                           |
 |                                                               | As a user, I want to know if the colour of the cigar determines the strength of the cigar.                |
 |                                                               | As a user, I want to know the difference between hand rolled and machine rolled.                          |
 
@@ -50,8 +50,8 @@ To develop this website we have broken down the UX into its five planes to defin
 | Footer with Contact Information     |                                                            |
 
 ### Structure Plane
-The website is designed to look like a single scrolling page. But for added user experience the cigar quiz app 
-does navigate away from the main site. But can be easily led back to the main site when on the quiz app. 
+The website is designed to look like a single scrolling page. But for added user experience the cigar quiz 
+does navigate away from the main site. But can be easily led back to the main site when on the quiz. 
 When a user gets to the landing page they are instantly greeted with a sticky navigation bar. The user can 
 easily scroll through each section of the website or use the sticky navigation bar at the top to get to each 
 section of the website. 
@@ -71,7 +71,7 @@ how the website will render on different devices.
 To gain a simple and easy to read website the following design choices have been made.
 
 - Font choices were ‘Cantarell’ and ‘Caveat’. For a more impactful heading ‘Caveat’ was used to grab the 
-user’s attention. However, for ease or reading, sometimes, large amounts of text ‘Cantarell’ was used for 
+user’s attention. However, for ease of reading, sometimes, large amounts of text ‘Cantarell’ was used for 
 a more eye pleasing read.
 
 - Text colour used is #1e7e34. A dark shade of green to keep in line with the logo.
@@ -85,9 +85,7 @@ enough for an easier read.
 
 ## Features
 
-### Navigation Bar
 -	The navigation is sticky to allow the user to always be able to navigate to and from each section. 
-It also highlights what section the user is on at any point.
 -	Hero Image at the landing page is for users to associate with the type of website they have reached. 
 An impactful cigar image with some elegant text overlayed.
 -	To show the main cigar making regions of the world Google Maps API has been implemented. An interactive 
@@ -100,8 +98,8 @@ for each section that links to the information provided.
 terms it was a better option to create this navigation list that allowed each letter to be clickable which in 
 turn would show only the terms of that particular letter. This will make it much easier for a user to sift 
 through all the cigar terms they may come across.
--	For the clients ‘Cigar Quiz’ section vanilla Javascript was used. It is an eight question quiz that will 
-allow the user to test what they have learned.
+-	For the clients ‘Cigar Quiz’ section vanilla Javascript was used. It has a small question bank
+that will randomise five questions at a time so the user will not get the same questions every time.
 -	EmailJS  API was used to allow users to get in contact with the client.
 -	The footer is a simple contact information with the logo. A nice way for the user to scroll through the 
 site and have as a future reference the contact details of the website.
@@ -111,7 +109,6 @@ site and have as a future reference the contact details of the website.
 Also for the client to have more exposure and be able to connect quickly with users.
 -	A video gallery for users to see different types of tutorials to use in everyday cigar life will help a 
 user expand on knowledge.
--	Further implementation of the quiz with more questions that can allow for randomising the quiz. 
 
 ---
 
@@ -129,7 +126,9 @@ user expand on knowledge.
     - Framework used to create website.
 
 * [Google Fonts](https://fonts.google.com/)
-    - Used 'Cantarell' font for all text on website and 'Caveat' for all title headings.
+    - Used ['Cantarell'](https://fonts.google.com/specimen/Cantarell?query=cantarell) 
+    font for all text on website and 
+    ['Caveat'](https://fonts.google.com/specimen/Caveat?query=caveat) for all title headings.
 
 * [Fontawesome](https://fontawesome.com/)
     - All icons were used from fontawesome.
@@ -164,7 +163,7 @@ user expand on knowledge.
 
 ### HTML5
 
-I ran all the HTML code into [W3C Markup Validator](https://validator.w3.org/). OUt of 5 pages there were no
+I ran all the HTML code into [W3C Markup Validator](https://validator.w3.org/). Out of five pages there were no
 errors. However there were two pages that had a warning for an empty heading. As javascript is implemented for
 this project these two warnings can be ignored because when these pages load javascript will then populate
 the heading. This is why it is left empty.
@@ -241,11 +240,13 @@ This is the single scrolling page which a user can navigate through the main par
 by either scrolling or using the navigation bar. I tested through both scrolling and using the
 navigation bar with no problems. As all the sections are essentially on this one page I 
 individually scrolled and clicked on the navigation bar to land on the section. 
+
 On the Cigar Globe section the 
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) loads 
-well and shows the marker cluster. The text to on this section allows users to hover over each 
-factory name and click to then show the user where exactly the factory is and is identified with 
+well and shows the marker cluster. The text on this section allows users to hover over each 
+factory name and click to show the user where the factory is and is identified with 
 a letter corresponding to the letter next to the factory name.
+
 Cigar Journey section is created with the 
 [bootstrap accordion](https://getbootstrap.com/docs/4.3/components/collapse/#accordion-example). 
 Each tab is clicked to show the next section and the last will collapse. The images were also 
@@ -254,9 +255,11 @@ At the Cigar Talk section there is an alphabetical navigation list that is creat
 [jQuery](https://jquery.com/). Each letter highlights when a user hovers over. Each click on a 
 different letter will the show all the definitions for that letter. On load the A section is 
 already loaded for the user to see.
+
 On the Cigar Quiz section is the few times a user will navigate out of the main page. The quiz is 
 created with [Javascript](https://www.javascript.com/). The button to go to the quiz highlights
 and allows the user to click to the quiz.
+
 The final section of the main page is the Contact section. It is a form with three fields. Name,
 email and message. All fields are required before a user can send the message. 
 [EmailJS API](https://www.emailjs.com/) is used to allow the user to contact the client. This 
@@ -265,7 +268,7 @@ too is tested and the email sends to the client seamlessly.
 #### Cigar Quiz Section
 
 When the user lands onto the Cigar Quiz section there is the logo which when clicked takes the
-user back to the Home section. There are two additional buttons of Play and Highscores. these
+user back to the Home section. There are two additional buttons of Play and Highscores. These
 buttons have box shadowing when the mouse hovers over. The Play button clicks through to the 
 cigar quiz window and the Highscores takes the user to the Highscores list window.
 
@@ -284,11 +287,11 @@ The user can enter their name and save the score to their local storage so that 
 see the score. They cannot save unless a name has been inputted. Once the save button is clicked
 the user will be sent to the High Scores page.
 They can also play again which will navigate them back to the quiz page. Or they can go home 
-through the Go Home button or click the logo at the toop of the page.
+through the Go Home button or click the logo at the top of the page.
 
 #### Highscores
 
-This page will only show the top scores set by the user if the sixth scroe is higher than the
+This page will only show the top scores set by the user if the sixth score is higher than the
 five on the page then the lowest score on the list is replaced. Again the user is given the 
 choice of two buttons. Play Again will allow the user to navigate back to the quiz page or
 Go Home to get back to the Home section of the website. They can also achieve this by clicking
@@ -350,11 +353,11 @@ A green box should appear with the following message
 
 Clone Website To clone the website to work locally, follow the steps below:
 
-    1. Go to the main page of the GitHub repository and click on the dropdown menu 
-    'Clone or download'
-    2. Copy the URL and go to your local IDE (Integrated Development Environment)
-    3. In the terminal of your IDE type in 'git clone' and the paste the URL copied from 
-    step 2 Press Enter and the clone will be created
+1. Go to the main page of the GitHub repository and click on the dropdown menu 
+'Clone or download'
+2. Copy the URL and go to your local IDE (Integrated Development Environment)
+3. In the terminal of your IDE type in 'git clone' and the paste the URL copied from 
+step 2 Press Enter and the clone will be created
 
 ---
 
@@ -385,10 +388,10 @@ tutorial.
 
 ### Aknowledgements
 
-- All Code Institute tutors who have helped me build my website. Helping me get EmailJS working
+- All Code Institute tutors who have helped me build my website. From helping me get EmailJS working
 to simple little errors I didn't see right away.
 
-- Chris who also helped me through some coding issues.
+- My friend Chris who also helped me through some coding issues.
 
 - All the friends and family that have tested my website.
 
