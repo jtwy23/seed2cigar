@@ -237,6 +237,27 @@ no errors.
 
 ### Javascript
 
+Running all the javascript code through [JSHint](https://jshint.com/) there were no errors that
+was highlighted. There were some warnings for the but it was only towards users who are not using
+ES6 enabaled web browsers. I further tested the viability of not changing the javascript code by
+getting the target audience of this type of website to view the website and play the quiz with
+no problems in loading and populating the appropriate parts of the quiz through javascript.
+
+#### cigargame.js
+![cigargamejs validator img](readme-images/cigargamejs.jpg)
+
+#### emailjs
+![emailjs validator img](readme-images/emailjs.jpg)
+
+#### end.js
+![endjs validator img](readme-images/endjs.jpg)
+
+#### map.js
+![mapjs validator img](readme-images/mapjs.jpg)
+
+#### scripts.js
+![scriptjs validator img](readme-images/scriptjs.jpg)
+
 ---
 
 ## Responsive
@@ -337,7 +358,9 @@ away to the respective page and opens on a new page so the user can get back to 
 | Internet Explorer |      |  X  |
 
 In Internet Explorer the main part of the site is working well however the cigar quiz doesn't
-populate the javascript code.
+populate the javascript code. This is because Internet Explorer is becoming very outdated and
+the people that are still using IE browser is not the target audience the client is aiming for.
+
 
 ### Device Test
 
