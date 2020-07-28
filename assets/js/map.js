@@ -1,3 +1,4 @@
+//Google map
 //Individual place id for each of the factories.
 const places = [
     {placeId:'A', lat: 23.083833, lng: -82.458169},
@@ -42,7 +43,7 @@ function moveMapTo(placeId){
             if(places[i].placeId === placeId) {
                 foundPlace=places[i];
     }
-};
+}
 
 map.setCenter({
     lat: foundPlace.lat,
@@ -50,4 +51,4 @@ map.setCenter({
 });
 
     map.setZoom(15);
-};
+}
