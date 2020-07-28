@@ -237,11 +237,11 @@ no errors.
 
 ### Javascript
 
-Running all the javascript code through [JSHint](https://jshint.com/) there were no errors that
-was highlighted. There were some warnings for the but it was only towards users who are not using
-ES6 enabaled web browsers. I further tested the viability of not changing the javascript code by
-getting the target audience of this type of website to view the website and play the quiz with
-no problems in loading and populating the appropriate parts of the quiz through javascript.
+Running all the javascript code through [JSHint](https://jshint.com/) there were no errors. 
+There were some warnings on the cigargame.js file but it was only because the code is written in 
+ES6. I further tested the viability of the javascript code by getting the target audience to 
+visit the website and play the quiz. All came back that the website loaded well and the quiz
+populated the questions from the javascript.
 
 #### cigargame.js
 ![cigargamejs validator img](readme-images/cigargamejs.jpg)
