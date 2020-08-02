@@ -49,12 +49,7 @@ To develop this website we have broken down the UX into its five planes to defin
 | A simple way for users to contact us for any related queries. | As a user, I want to know where the main cigar producing countries are.                                   |
 | The design of the website to be simple and inviting.          | As a user, I want to be able to get in touch with someone knowledgeable in cigars to answer my questions. |
 | The information given to users will be simple and helpful.    | As a user, I want to be able to test my own knowledge on cigars.                                          |
-|                                                               | As a user, I want to better understand ring gauges on different cigars.                                   |
-|                                                               | As a user, I want to know the purpose of some cigar sizes.                                                |
-|                                                               | As a user, I would like to be able to learn more flavour profiles and understand the different flavours.  |
-|                                                               | As a user, I want to know the difference from Cuban cigars to New World cigars.                           |
-|                                                               | As a user, I want to know if the colour of the cigar determines the strength of the cigar.                |
-|                                                               | As a user, I want to know the difference between hand rolled and machine rolled.                          |
+|                                                               | As a user, I want to better understand ring gauges on different cigars.                                   |                                                              
 
 ### Scope Plane
 | Features Include:                   | Features Not Included (For future implementation):         |
@@ -76,9 +71,10 @@ easily scroll through each section of the website or use the sticky navigation b
 section of the website. 
 
 ### Skeleton Plane
-To give the client a visual idea of the project wireframes were created with Balsamiq. We have created 3 
-versions of the website on different viewing platforms. A desktop, mobile and tablet view to show the client 
-how the website will render on different devices.
+To give the client a visual idea of the project wireframes were created with 
+[Balsamiq Wireframes](https://balsamiq.com/). We have created 3 versions of the website on 
+different viewing platforms. A desktop, mobile and tablet view to show the client how the 
+website will render on different devices.
 
 - [Desktop](https://github.com/jtwy23/seed2cigar/blob/master/mockups/Milestone%2002%20-%20Desktop.pdf)
 
@@ -184,6 +180,52 @@ For all testing results please click [here](/TESTING.md).
 
 ---
 
+## Bug Problems in Development
+
+Throughout the build of this website I have come across quite a few problems and below is a list:
+
+- Navigation Bar - The original idea for the navigation bar was to use 'data-scroll-spy' function
+ so that as the user scrolls through the website the navbar headings will highlight onto each 
+ section.
+    - Fix - I eventually had to take out the 'data-scroll-spy' as the scroller was not highlighting
+    at the correct sections. I used jQuery to allow the user to click on the navbar headings and
+    land on the correct section instead of the scroller.
+
+- Landing Page - A button was created for the start of the landing page so a user can press the button 
+and start the experience on Cigar Globe. The colour scheme for this button is white but as the 
+rest of the websites buttons will be green this did not suit.
+    - Fix - The button colour was changed to green but did not match up to the background image
+    therefore the 'Let's Start!' button was taken away due to design choice.
+
+- Cigar Globe - The cigar factories list had some major troubles as <li> items. I couldn't get the
+three tables to line up horizontally and spaced well. 
+    - Fix - Instead of using them as three lists I changed it into a table which allowed me more
+    freedom to manipulate the spacing issues I was having.
+
+- Cigar Journey - I started with a jQuery accordion to setup this section. The accordion was simple
+to code but as I was using the bootstrap framework the classes I created were being overidden and
+making it very hard to work around.
+Also had an issue with the cigar barn image. It just didn't want to resize with all the other images
+on that section.
+    - Fix - I took away the jQuery accordion and opted for the bootstrap accordion which instantly
+    solved all my issues with classes.
+    With the image problem I had to find a new image and replace it so it could be resized through
+    CSS like the other images on the section.
+
+- Cigar Quiz - The bugs came from the actual game page. There were two issues. One was the logo
+was a link but spanned across the entire header. The second issue was the responsiveness.
+    - Fix - The logo and the responsiveness was fixed by adding bootstrap framework onto all the 
+    quiz pages. By using 'img-fluid' this allowed only the logo to be a clickable link back to the
+    home page. As for responsiveness, bootstrap helped when reducing screen size so the text was 
+    not squashed or overlapping.
+
+- Contact - The main issue was the modal box. The idea was for a user to fill out the form and submit.
+Then the modal box will appear to let the user know he/she has sent the email to the client. However,
+if the form was not completed the user can still press the submit button and the modal box will open.
+    - Fix - I had to move the modal javascript code to inside the promise. This then requires the 
+    user to complete the form and get validated. Have the form sent and allow the success responsive
+    to come back before the modal box is launched.
+
 ## Deployment
 
 Github was used for deployment.
@@ -239,8 +281,8 @@ tutorial.
 
 ### Aknowledgements
 
-- All Code Institute tutors who have helped me build my website. From helping me get EmailJS working
-to simple little errors I didn't see right away.
+- All [Code Institute](https://codeinstitute.net/) tutors who have helped me build my website. 
+From helping me get EmailJS working to simple little errors I didn't see right away.
 
 - My friend Chris who also helped me through some coding issues.
 
@@ -253,5 +295,3 @@ to simple little errors I didn't see right away.
 This is only for educational purposes.
 
 ---
-
-
