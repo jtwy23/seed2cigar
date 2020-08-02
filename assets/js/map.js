@@ -31,40 +31,30 @@ var markers = places.map(function(place, i) {
         label: place.placeId
     });
 
-    var infowindow = new google.maps.InfoWindow({
-        content: `
-            <div>
-                <strong>${place.name}</strong>
-                <br>
-                <br>
-                <img src="${place.photo}">                
-                <br>
-                <br>
-                <em>${place.address}</em>
-                <br>
-                <br>
-                <div>${place.description}</div>
-            </div>
-        `
-    });
+// Info Windows connected to markers
+var infowindow = new google.maps.InfoWindow({
+    content: `
+        <div>
+            <strong>${place.name}</strong>
+            <br>
+            <br>
+            <img src="${place.photo}">                
+            <br>
+            <br>
+            <em>${place.address}</em>
+            <br>
+            <br>
+            <div>${place.description}</div>
+        </div>
+    `
+});
 
-    /*
-<div>
-        <img src="${place.photos[0].getUrl({'maxWidth': 200, 'maxHeight': 140})}" alt=""><br>
-        <strong>${place.name}</strong><br>
-        <strong>Rating:</strong> ${place.rating}<br>
-         ${place.vicinity}<br>
-         ${place.types[0]}<br>
-        <a href="https://www.google.com/maps/place/?q=place_id:${place.place_id}" target="_blank">View on Google Maps</a> 
-         </div>
-    */
+marker.addListener('click', function() {
+    infowindow.open(map, marker);
+});
 
-    marker.addListener('click', function() {
-        infowindow.open(map, marker);
-    });
-
-    return marker;
-    });
+return marker;
+});
    
 var markerCluster = new MarkerClusterer(map, markers, 
 {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});      
