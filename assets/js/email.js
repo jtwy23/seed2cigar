@@ -8,6 +8,7 @@ function sendMail(contact_form) {
     .then(
         function(response) {
             document.getElementById("contact_form").reset();
+            modal.style.display = "block";
             console.log("SUCCESS", response);
         },
         function(error) {
@@ -16,20 +17,12 @@ function sendMail(contact_form) {
     );
     return false;  
 }
-
+ 
 // Get the modal box
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal box
-var btn = document.getElementById("modalBox");
-
 // Get the <span> element that closes the modal box
 var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal box
-btn.onclick = function() {
-  modal.style.display = "block";
-};
 
 // When the user clicks on <span> (x), close the modal box
 span.onclick = function() {
@@ -42,4 +35,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
-
