@@ -14,6 +14,7 @@ finalScore.innerText = mostRecentScore;
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
+
 // Saves only the top 5 highscores to users local storage and taken to highscores page
 saveHighScore = (e) => {
     e.preventDefault();
