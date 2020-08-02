@@ -16,6 +16,10 @@
 }
 
 /* ------------------------- Choice Bar ------------------------- */
+p {
+    margin-bottom: 0;
+}
+
 .choice-prefix {
   padding: 1.5rem 2.5rem;
   background-color: #1e7e34;
