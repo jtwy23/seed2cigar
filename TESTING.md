@@ -223,59 +223,61 @@ Each user story was tested as a user myself and by friends and family.
 #### User Stories
 
 - As a user, I want to be able to learn more about the cigar process. 
-        - The accordion used in the Cigar Journey section gives a detailed look into the cigar
-        process from seed to sale.
+    - The accordion used in the Cigar Journey section gives a detailed look into the cigar
+    process from seed to sale.
 
 - As a user, I want to better understand cigar terms I see in other websites and social media.
-        - The alphabetical navigation list was created to allow users to look up different cigar
-        definitions with ease.
+    - The alphabetical navigation list was created to allow users to look up different cigar
+    definitions with ease.
 
 - As a user, I want to know where the main cigar producing countries are.
-        - There are so many cigar producing countries in the world. So I chose three of the top 
-        cigar producing countries and their top three cigar factories of each country. Also there
-        is additional information on each cigar factory when the user clicks on the marker bubble
-        for extra interactivity.
+    - There are so many cigar producing countries in the world. So I chose three of the top 
+    cigar producing countries and their top three cigar factories of each country. Also there
+    is additional information on each cigar factory when the user clicks on the marker bubble
+    for extra interactivity.
 
 - As a user, I want to be able to get in touch with someone knowledgeable in cigars to answer my questions.
-        - The Contact section allows for users to easily complete a form and send a message to 
-        the client with any cigar related queries. There is also a modal box built into this form
-        so that teh user will know when a message has been sent.
+    - The Contact section allows for users to easily complete a form and send a message to 
+    the client with any cigar related queries. There is also a modal box built into this form
+    so that teh user will know when a message has been sent.
 
 - As a user, I want to be able to test my own knowledge on cigars. 
-        - This quiz has questions made up from all the information on the website itself. This
-        ensures the user will read the information provided and will allow them to get through
-        the quiz easily. If they get any answers wrong they can just read through the particular
-        section of the website to find the answer and try again later on the quiz.
+    - This quiz has questions made up from all the information on the website itself. This
+    ensures the user will read the information provided and will allow them to get through
+    the quiz easily. If they get any answers wrong they can just read through the particular
+    section of the website to find the answer and try again later on the quiz.
 
 - As a user, I want to better understand ring gauges on different cigars. 
-        - This is a more intermediate user story. To test this I assumed the user has some
-        experience with cigars and now want to dive deeper into the learning experience. The
-        user can navigate to 'R' and then look at the definition of 'Ring Gauge' to better
-        understand what ring gauges are.
+    - This is a more intermediate user story. To test this I assumed the user has some
+    experience with cigars and now want to dive deeper into the learning experience. The
+    user can navigate to 'R' and then look at the definition of 'Ring Gauge' to better
+    understand what ring gauges are.
 
 #### Client Goals
 
 - To have an easy to understand website.
-        - I designed this website with a total novice in mind. The layout is easy and simple
-        to understand and even easier to navigate. 
+    - I designed this website with a total novice in mind. The layout is easy and simple
+    to understand and even easier to navigate. 
 
 - The website should be easy for any user to navigate.
-        - The navigation bar is fixed to the top of the page so the user can always navigate to any 
-        section of the website when they want to.
+    - The navigation bar is fixed to the top of the page so the user can always navigate to any 
+    section of the website when they want to.
 
 - A simple way for users to contact us for any related queries.
-        - A simple contact form was created so that a user can quickly complete the contact form
-        and send the message through to the client straight away. 
+    - A simple contact form was created so that a user can quickly complete the contact form
+    and send the message through to the client straight away. 
 
 - The design of the website to be simple and inviting.
-        - A large hero image is on the landing page to allows users to know they are on a cigar 
-        website but also a lot of images are on different sections of the website to help users 
-        connect to what information they are reading. For instance each heading of the Cigar Journey
-        has one picture that corresponds to the information. On the 'Cigar Bales' section there is a 
-        clear image of cigar bales and below is a detailed description of what cigar bales are. This
-        is to add to the user experience while on this website.
+    - A large hero image is on the landing page to allows users to know they are on a cigar 
+    website but also a lot of images are on different sections of the website to help users 
+    connect to what information they are reading. For instance each heading of the Cigar Journey
+    has one picture that corresponds to the information. On the 'Cigar Bales' section there is a 
+    clear image of cigar bales and below is a detailed description of what cigar bales are. This
+    is to add to the user experience while on this website.
 
 - The information given to users will be simple and helpful.
-        - As cigar information can be very complex and detailed, we built this website for 
-        users to easily access information and have the correct images to further enforce 
-        the simplicity of the website.
+    - As cigar information can be very complex and detailed, we built this website for 
+    users to easily access information and have the correct images to further enforce 
+    the simplicity of the website.
+
+---

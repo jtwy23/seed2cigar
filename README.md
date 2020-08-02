@@ -197,7 +197,7 @@ rest of the websites buttons will be green this did not suit.
     - Fix - The button colour was changed to green but did not match up to the background image
     therefore the 'Let's Start!' button was taken away due to design choice.
 
-- Cigar Globe - The cigar factories list had some major troubles as <li> items. I couldn't get the
+- Cigar Globe - The cigar factories list had some major troubles as list items. I couldn't get the
 three tables to line up horizontally and spaced well. 
     - Fix - Instead of using them as three lists I changed it into a table which allowed me more
     freedom to manipulate the spacing issues I was having.
@@ -225,6 +225,8 @@ if the form was not completed the user can still press the submit button and the
     - Fix - I had to move the modal javascript code to inside the promise. This then requires the 
     user to complete the form and get validated. Have the form sent and allow the success responsive
     to come back before the modal box is launched.
+
+---
 
 ## Deployment
 
@@ -264,10 +266,15 @@ step 2 Press Enter and the clone will be created
 - Cigar talk content is from 
 [Havana House](https://www.havanahouse.co.uk/glossary-of-cigar-terminology-blog/).
 
+- Google Infowindow content is from 
+[Wikipedia](https://www.wikipedia.org/).
+
 ### Media
 
 All images are from [Pexels](https://www.pexels.com/), [Pexabay](https://pixabay.com/) and
 [Unsplash](https://unsplash.com/).
+
+All logo images from [Wikipedia](https://www.wikipedia.org/)
 
 ### Web Template
 
