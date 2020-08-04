@@ -309,7 +309,7 @@ textarea {
 .footer-style {
     background-color: rgb(52, 58, 64);
     text-align: center;
-    color:#1e7e34;
+    color:#fff;
 }
 
 hr {
@@ -331,11 +331,11 @@ hr {
 }
 
 a {
-    color: #1e7e34;
+    color: #fff;
 }
 
 a:hover {
-    color: #bbda7b;
+    color: #1e7e34;
 }
   
 /* ------------------------- Extra Bootstrap Column Padding ------------------------- */
