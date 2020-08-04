@@ -16,6 +16,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+- [Bug Problems in Development](#bug-problems-in-development)
 - [Responsive](#responsive)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -191,6 +192,11 @@ Throughout the build of this website I have come across quite a few problems and
     at the correct sections. I used jQuery to allow the user to click on the navbar headings and
     land on the correct section instead of the scroller.
 
+- Navigation Bar - On mobile view the navbar was expanding but not collapsing after the user click on
+ a heading.
+    - Fix - Had to copy the data-toggle="collapse" and data-target="#navbarResponsive" into each of
+    anchor tags. This resloved the issue.
+
 - Landing Page - A button was created for the start of the landing page so a user can press the button 
 and start the experience on Cigar Globe. The colour scheme for this button is white but as the 
 rest of the websites buttons will be green this did not suit.
@@ -212,6 +218,12 @@ on that section.
     With the image problem I had to find a new image and replace it so it could be resized through
     CSS like the other images on the section.
 
+- Cigar Talk - The English alphabet is rather lengthy. So although on desktop view this nav list is 
+very nice to look at. On mobile view the alphabet nav took up a lot of space and made the screen look
+a little crowded.
+    - Fix - Letters with no definitions were taken out of the list which created more space and a better
+    overall look when in mobile view.
+
 - Cigar Quiz - The bugs came from the actual game page. There were two issues. One was the logo
 was a link but spanned across the entire header. The second issue was the responsiveness.
     - Fix - The logo and the responsiveness was fixed by adding bootstrap framework onto all the 
@@ -225,6 +237,12 @@ if the form was not completed the user can still press the submit button and the
     - Fix - I had to move the modal javascript code to inside the promise. This then requires the 
     user to complete the form and get validated. Have the form sent and allow the success responsive
     to come back before the modal box is launched.
+
+- Footer - The footer has a very dark shade of black. In keeping with the sites colour scheme I kept it
+green. However as a Slack member that reviewed my site and dev tools saying there was a conflicting issue
+with the colours.
+    - Fix - I changed the colour scheme to white instead of the green and that allowed for a better contrast
+    and became much easier to read.
 
 ---
 
