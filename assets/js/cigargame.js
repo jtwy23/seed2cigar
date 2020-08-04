@@ -1,7 +1,7 @@
 // Cigar game
 const question = document.getElementById('question');
 
-const choices = Array.from(document.getElementsByClassName('choice-text'));
+const choices = Array.from(document.getElementsByClassName('cigar-text'));
 
 const progressText = document.getElementById('progressText');
 
@@ -35,7 +35,7 @@ fetch('questions.json')
     });
 
 // CONSTANTS Points and amounts of questions
-const CORRECT_BONUS = 20;
+const CORRECT_ANSWER = 20;
 const MAX_QUESTIONS = 5;
 
 // Starts game
@@ -84,7 +84,7 @@ choices.forEach((choice) => {
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
-            incrementScore(CORRECT_BONUS);
+            incrementScore(CORRECT_ANSWER);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);

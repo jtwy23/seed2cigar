@@ -1,5 +1,5 @@
 /* ------------------------- Container ------------------------- */
-.choice-container {
+.cigar-panel {
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
@@ -8,7 +8,7 @@
   background-color: white;
 }
 
-.choice-container:hover {
+.cigar-panel:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(206, 247, 148, 0.5);
   transform: translateY(-0.1rem);
@@ -20,14 +20,14 @@ p {
     margin-bottom: 0;
 }
 
-.choice-prefix {
+.choice-letter {
   padding: 1.5rem 2.5rem;
   background-color: #1e7e34;
   color: white;
 }
 
 /* ------------------------- Choice Text Size ------------------------- */
-.choice-text {
+.cigar-text {
   padding: 1.5rem;
   width: 100%;
 }
