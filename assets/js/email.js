@@ -1,10 +1,49 @@
 // Sending email function
+
+// Variables
+const form = document.getElementById("contact");
+const fname = document.getElementById("fname");
+const ask_question = document.getElementById("ask_question");
+const errorMessage = document.getElementById ("errorMessage");
+
 function sendMail(contact_form) {
+
+  let messages = [];
+
+  let nofname = (fname.value === null || fname.value === "");
+
+// If the field is blank error message shows
+  if (nofname) {
+    messages.push("A name is required");
+  }
+
+// If the field has numbers error message shows
+  if (!nofname) {
+      if (!RegExp('^[A-Za-z ]+$').test(fname.value))
+      messages.push("Name cannot contain numbers");
+  }
+  
+  let noQuestion = (ask_question.value === null || ask_question.value === "");
+
+// If the field is blank error message shows
+  if (noQuestion) {
+      messages.push("You must enter a message");
+  }
+
+// If the field is less than 10 characters error message shows
+  if (!noQuestion) {
+      if (ask_question.value.length < 10) {
+          messages.push ("Message too short");
+      }
+  }
+
+  if (messages.length === 0) {
     emailjs.send("gmail", "seed2cigar", {
         "from_name": contact_form.from_name.value,
         "from_email": contact_form.from_email.value,
         "ask_question": contact_form.ask_question.value
     })
+
     .then(
         function(response) {
             document.getElementById("contact_form").reset();
@@ -15,7 +54,16 @@ function sendMail(contact_form) {
             console.log("FAILED", error);
         }
     );
+
     return false;  
+
+    } else {
+        for (i = 0; i < messages.length; i++) {
+            errorMessage.innerHTML = errorMessage.innerHTML + messages [i] + '<br>';
+        }
+
+    return false;
+    }
 }
  
 // Get the modal box
@@ -35,40 +83,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
-
-// test
-const form = document.getElementById("contact");
-const fname = document.getElementById("fname");
-const email = document.getElementById("email")
-const ask_question = document.getElementById("ask_question");
-const errorMessage = document.getElementById ("errorMessage");
-
-form.addEventListener("submit", (e) => {
-
-  let messages = []
-
-  if (fname.value === "" || fname.value == null) {
-    messages.push("A name is required")
-  };
-
-  if (email.value === "" || email.value == null) {
-      messages.push("A valid email address is required")
-  };
-
-  if (ask_question.value === "" || ask_question == null) {
-      messages.push("You must enter valid text")
-  };
-
-  if (messages.length < 0) {
-    e.preventDefault()
-    errorMessage.innerText = messages.join(', ')
-  };
-
-});
-
-
-
-
-// function isEmail(email) {
-// 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-// }
