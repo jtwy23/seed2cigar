@@ -238,6 +238,14 @@ if the form was not completed the user can still press the submit button and the
     user to complete the form and get validated. Have the form sent and allow the success responsive
     to come back before the modal box is launched.
 
+- Contact - Another issue was validating the contact form with javascript. Originally I used HTML5 to
+validate the whole form. However, this had a few limitations in regards to correctly filling the form out.
+I replaced two form fields with javascript validation to keep make the date more accurate. 
+    - Fix - The name field now has validation on only having upper and lower case letters as well as only one
+    space allowance. No numbers can be inputted for the name field. The message box must have a minimum if 10 
+    characters before it can be validated to send. I did keep the HTML5 validation on the email field as it 
+    seemed suitable for the validaion I was looking for in this field.
+
 - Footer - The footer has a very dark shade of black. In keeping with the sites colour scheme I kept it
 green. However as a Slack member that reviewed my site and dev tools saying there was a conflicting issue
 with the colours.
