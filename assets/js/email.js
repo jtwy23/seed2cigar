@@ -35,3 +35,40 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
+
+// test
+const form = document.getElementById("contact");
+const fname = document.getElementById("fname");
+const email = document.getElementById("email")
+const ask_question = document.getElementById("ask_question");
+const errorMessage = document.getElementById ("errorMessage");
+
+form.addEventListener("submit", (e) => {
+
+  let messages = []
+
+  if (fname.value === "" || fname.value == null) {
+    messages.push("A name is required")
+  };
+
+  if (email.value === "" || email.value == null) {
+      messages.push("A valid email address is required")
+  };
+
+  if (ask_question.value === "" || ask_question == null) {
+      messages.push("You must enter valid text")
+  };
+
+  if (messages.length < 0) {
+    e.preventDefault()
+    errorMessage.innerText = messages.join(', ')
+  };
+
+});
+
+
+
+
+// function isEmail(email) {
+// 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+// }
