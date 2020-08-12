@@ -19,9 +19,11 @@ function sendMail(contact_form) {
 
 // If the field has numbers error message shows
   if (!nofname) {
-      if (!RegExp('^[A-Za-z ]+$').test(fname.value))
-      messages.push("Name cannot contain numbers");
+      if (!RegExp('^[a-zA-Z_ ]+\\S').test(fname.value))
+      messages.push("Name cannot contain numbers or multiple spaces"); 
   }
+
+  // ^[A-Za-z ]+$
   
   let noQuestion = (ask_question.value === null || ask_question.value === "");
 
@@ -32,8 +34,8 @@ function sendMail(contact_form) {
 
 // If the field is less than 10 characters error message shows
   if (!noQuestion) {
-      if (ask_question.value.length < 10) {
-          messages.push ("Message too short");
+      if (ask_question.value.length < 25) {
+          messages.push ("Message too short, minimum 25 characters");
       }
   }
 
@@ -65,7 +67,7 @@ function sendMail(contact_form) {
     return false;
     }
 }
- 
+
 // Get the modal box
 var modal = document.getElementById("myModal");
 
