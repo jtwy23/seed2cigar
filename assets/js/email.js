@@ -38,6 +38,9 @@ function sendMail(contact_form) {
           messages.push ("Message too short, minimum 25 characters");
       }
   }
+  
+// Clears previous error messages
+    $("#errorMessage").empty();
 
   if (messages.length === 0) {
     emailjs.send("gmail", "seed2cigar", {
