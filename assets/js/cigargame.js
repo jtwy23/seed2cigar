@@ -1,9 +1,9 @@
 // Cigar game
 const question = document.getElementById('question');
 
-const choices = Array.from(document.getElementsByClassName('cigar-text'));
+const choices = Array.from(document.getElementsByClassName('cigartext'));
 
-const progressText = document.getElementById('progressText');
+const quizProgress = document.getElementById('quizProgress');
 
 const scoreText = document.getElementById('score');
 
@@ -17,12 +17,12 @@ let score = 0;
 
 let questionCounter = 0;
 
-let availableQuesions = [];
+let cigarQuesions = [];
 
 let questions = [];
 
 // Gets cigar quiz questions
-fetch('questions.json')
+fetch('cigarquestions.json')
     .then((res) => {
         return res.json();
     })
@@ -42,24 +42,24 @@ const MAX_QUESTIONS = 5;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuesions = [...questions];
+    cigarQuesions = [...questions];
     getNewQuestion();
 };
 
 // Get and display new question and choices if there is any available or take user to the end page
 getNewQuestion = () => {
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (cigarQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
         return window.location.assign('end.html');
     }
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    quizProgress.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-    currentQuestion = availableQuesions[questionIndex];
+    const questionIndex = Math.floor(Math.random() * cigarQuesions.length);
+    currentQuestion = cigarQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
     choices.forEach((choice) => {
@@ -67,7 +67,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];
     });
 
-    availableQuesions.splice(questionIndex, 1);
+    cigarQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
 
